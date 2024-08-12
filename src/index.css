@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  padding-top: 0;
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 10px;
+}
+.content{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 84vh;
+}
+footer{
+  background-color: rgb(210, 228, 222);
+  padding: 10px;
+  text-align: center;
+}
+li{
+  width: 400px;
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.247);
+}
+label{
+  font-size: 28px;
+  font-weight: 900;
+}
+.check{
+  width: 40px;
+  height: 40px;
+}
+button{
+  width: 40px;
+  height: 40px;
+}
+.del-btn{
+  width: 40PX;
+  height: 40PX;
+
+  cursor: pointer;
+}
+.del-btn:hover{
+  color: red;
+}
+.add-list{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.form-container{
+  background-color: rgba(205, 206, 207, 0.142);
+  border: 2px rgba(0, 0, 0, 0.096) solid;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+.add-input{
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  
+  border-radius: 3px;
+}
+.add-btn{
+  margin-left: 20px;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(8, 8, 223, 0.859);
+}
